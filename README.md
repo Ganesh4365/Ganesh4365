@@ -1,141 +1,58 @@
-# 👋 Hi, I'm Shri Ganesh Suryawanshi
-### **Cloud & DevOps Engineer** · Bengaluru, India
-
-> DevOps Engineer specializing in **AWS & GCP Cloud Infrastructure**, **Kubernetes Orchestration**, **GitOps Continuous Delivery (ArgoCD)**, and **Infrastructure as Code (Terraform)**. Focused on building highly available, secure, and observable production environments.
-
-&lt;br /&gt;
-
-&lt;p align=&quot;left&quot;&gt;
-  &lt;a href=&quot;https://linkedin.com/in/ganesh-suryawanshi&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white&quot; alt=&quot;LinkedIn&quot; /&gt;&lt;/a&gt;
-  &amp;nbsp;
-  &lt;a href=&quot;https://ganesh4365.github.io/Professional-Portfolio&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white&quot; alt=&quot;Portfolio&quot; /&gt;&lt;/a&gt;
-  &amp;nbsp;
-  &lt;a href=&quot;mailto:shriganeshsuryawanshi44@gmail.com&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&quot; alt=&quot;Email&quot; /&gt;&lt;/a&gt;
-  &amp;nbsp;
-  &lt;a href=&quot;https://github.com/Ganesh4365&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white&quot; alt=&quot;GitHub&quot; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p align=&quot;left&quot;&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/AWS%20Certified-Cloud%20Practitioner-FF9900?style=flat-square&amp;logo=amazon-aws&amp;logoColor=white&quot; alt=&quot;AWS Cloud Practitioner&quot; /&gt;
-  &amp;nbsp;
-  &lt;img src=&quot;https://img.shields.io/badge/Pursuing-AWS%20Solutions%20Architect%20Assoc.-232F3E?style=flat-square&amp;logo=amazon-aws&amp;logoColor=white&quot; alt=&quot;AWS SAA&quot; /&gt;
-  &amp;nbsp;
-  &lt;img src=&quot;https://img.shields.io/badge/Status-Open%20to%20DevOps%20Roles-success?style=flat-square&quot; alt=&quot;Status&quot; /&gt;
-  &amp;nbsp;
-  &lt;img src=&quot;https://img.shields.io/badge/Location-Bengaluru%2C%20India-blue?style=flat-square&amp;logo=googlemaps&amp;logoColor=white&quot; alt=&quot;Location&quot; /&gt;
-&lt;/p&gt;
-
-&lt;br /&gt;
-
----
-
-&lt;br /&gt;
-
-## 📊 Measurable Production Impact
-
-&lt;br /&gt;
-
-| 🚀 CI/CD & Delivery | ⚡ Infrastructure as Code | 🛡️ Shift-Left DevSecOps | ⏱️ Reliability & SRE |
-| :---: | :---: | :---: | :---: |
-| **70% Less Manual Effort**<br>Automated via Jenkins & ArgoCD GitOps | **60% Faster Setup**<br>Modular Terraform on AWS (2h → <45m) | **15+ Critical CVEs Blocked**<br>Enforced SonarQube & Trivy Gates | **40% Lower MTTD**<br>Prometheus & Grafana (99.9% SLA) |
-
-&lt;br /&gt;
-
----
-
-&lt;br /&gt;
-
-## 🛠️ Technical Competencies
-
-&lt;br /&gt;
-
-* **☁️ Cloud Platforms:** Amazon Web Services (AWS EC2, S3, IAM, VPC, RDS, Lambda, CloudWatch, ECR), Google Cloud Platform (GCP Compute Engine, Cloud Run)
-* **📦 Containers & Orchestration:** Docker, Multi-Stage Builds, Kubernetes (Deployments, Services, Ingress, ConfigMaps, Secrets), Helm Charts, ArgoCD (GitOps)
-* **🔄 CI/CD & Automation:** GitHub Actions, Jenkins, GitLab CI/CD, Automated Rollback, Blue-Green & Rolling Deployments
-* **🏗️ Infrastructure as Code (IaC):** Terraform (S3 Remote State, DynamoDB Locking), Ansible, Bash / Shell Scripting, Python, YAML
-* **🛡️ DevSecOps & Security:** SonarQube (SAST), Trivy (Container Scanning), Nexus OSS, Shift-Left Security Quality Gates, SSL/TLS Termination
-* **📈 Observability & Monitoring:** Prometheus, Grafana, Alertmanager, ELK Stack (Elasticsearch, Logstash, Kibana), AWS CloudWatch
-* **🌐 Web Servers & Networking:** Linux Administration (Ubuntu, CentOS), Nginx (Reverse Proxy, Load Balancing), DNS, TCP/IP
-
-&lt;br /&gt;
-
----
-
-&lt;br /&gt;
-
-## 🚀 Featured Engineering Projects
-
-&lt;br /&gt;
-
-### 1. [Three-Tier Cloud-Native Architecture on AWS](https://github.com/Ganesh4365)
-> **Technologies:** AWS EC2, Terraform, Docker, Nginx, PostgreSQL, SSL/TLS
-
-* **Architecture:** Designed and deployed a scalable 3-tier architecture (React frontend, Node/Java API, PostgreSQL database) in isolated VPC subnets.
-* **Infrastructure Automation:** Authored reusable Terraform modules with S3 remote state and DynamoDB state locking, cutting environment setup time by **60%** (from 2 hours to under 45 minutes).
-* **Reliability & Security:** Configured container health checks, automated restart policies, and Nginx reverse proxy with SSL/TLS termination, reliably serving **500+ requests/minute** with a 99% success rate.
-
-&lt;br /&gt;
-
-### 2. [Enterprise DevSecOps & GitOps Pipeline](https://github.com/Ganesh4365)
-> **Technologies:** Jenkins, GitHub Actions, SonarQube, Trivy, ArgoCD, Kubernetes, Docker
-
-* **Automated CI/CD:** Built a 7-stage automated workflow: Git commit $\rightarrow$ Maven build $\rightarrow$ SonarQube quality gate $\rightarrow$ Multi-stage Docker build $\rightarrow$ Trivy image scan $\rightarrow$ ArgoCD GitOps sync $\rightarrow$ Kubernetes deployment.
-* **Security & Optimization:** Integrated mandatory SonarQube and Trivy quality gates, blocking 100% of critical security vulnerabilities pre-production. Shrunk final container images by **40%** using Alpine base layers.
-* **Zero Downtime:** Implemented automated health check validation and instant rollback mechanisms, enabling seamless, zero-downtime rolling releases.
-
-&lt;br /&gt;
-
-### 3. [Kubernetes Microservices Deployment with Dynamic Auto-Scaling](https://github.com/Ganesh4365)
-> **Technologies:** Kubernetes, Helm, Prometheus, Grafana, Alertmanager, HPA
-
-* **Microservices Orchestration:** Deployed 5 containerized services on Kubernetes using custom Helm charts, Ingress controllers, and secure ConfigMaps/Secrets.
-* **Dynamic Scaling:** Configured Horizontal Pod Autoscalers (HPA) targeting 70% CPU and 80% memory utilization, successfully handling load tests of **1,000+ concurrent requests**.
-* **Observability Suite:** Built a Prometheus and Grafana monitoring stack with 6 custom performance dashboards and Alertmanager routing, reducing Mean Time to Detect (MTTD) by **40%**.
-
-&lt;br /&gt;
-
----
-
-&lt;br /&gt;
-
-## 📈 GitHub Consistency & Contributions
-
-&lt;br /&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-  &lt;img src=&quot;https://streak-stats.demolab.com?user=Ganesh4365&amp;theme=tokyonight&amp;hide_border=true&quot; alt=&quot;Ganesh&#39;s GitHub Streak&quot; width=&quot;95%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;br /&gt;
-
----
-
-&lt;br /&gt;
-
-## 📜 Certifications & Honors
-
-&lt;br /&gt;
-
-* 🎖️ **AWS Certified Cloud Practitioner (CLF-C02)** – Amazon Web Services (2025)
-* 🎯 **AWS Certified Solutions Architect – Associate (SAA-C03)** – *In Progress (Target: 2026)*
-* 🏅 **DevOps Essentials Certification** – QSpiders (2025)
-* 🌟 **Top 10% Performer** – DevOps Internship Cohort across 200+ Engineers (QSpiders)
-* 🏆 **Smart India Hackathon** – State-Level Finalist (2023)
-
-&lt;br /&gt;
-
----
-
-&lt;br /&gt;
-
-## 🤝 Let's Connect & Collaborate!
-
-&lt;br /&gt;
-
-I am actively open to Junior DevOps and Cloud Engineering roles, as well as collaborative open-source cloud projects.
-
-&lt;p align=&quot;center&quot;&gt;
-  &lt;a href=&quot;https://linkedin.com/in/ganesh-suryawanshi&quot;&gt;&lt;b&gt;LinkedIn Profile&lt;/b&gt;&lt;/a&gt; · 
-  &lt;a href=&quot;https://ganesh4365.github.io/Professional-Portfolio&quot;&gt;&lt;b&gt;Personal Portfolio&lt;/b&gt;&lt;/a&gt; · 
-  &lt;a href=&quot;mailto:shriganeshsuryawanshi44@gmail.com&quot;&gt;&lt;b&gt;Direct Email&lt;/b&gt;&lt;/a&gt;
-&lt;/p&gt;
+<div align="center">⚡ Shri Ganesh SuryawanshiCloud & DevOps Engineer · Bengaluru, India<br /><p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=650&lines=Automating+Multi-Cloud+Deployments+(AWS+%26+GCP);Orchestrating+Production+Kubernetes+Clusters;Declarative+Infrastructure+as+Code+(Terraform);Continuous+GitOps+Delivery+with+ArgoCD;Hardening+Pipelines+with+Shift-Left+DevSecOps" alt="Animated Subtitle" />
+</p><br /><p align="center">
+<a href="https://linkedin.com/in/ganesh-suryawanshi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+&nbsp;
+<a href="https://ganesh4365.github.io/Professional-Portfolio"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
+&nbsp;
+<a href="mailto:shriganeshsuryawanshi44@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+&nbsp;
+<a href="https://github.com/Ganesh4365"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p><p align="center">
+<img src="https://komarev.com/ghpvc/?username=Ganesh4365&label=PROFILE+VIEWS&color=0e75b6&style=flat-square" alt="Profile Views" />
+&nbsp;
+<img src="https://img.shields.io/badge/AWS%20Certified-Cloud%20Practitioner-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Cloud Practitioner" />
+&nbsp;
+<img src="https://img.shields.io/badge/Pursuing-AWS%20Solutions%20Architect%20Assoc.-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS SAA" />
+&nbsp;
+<img src="https://img.shields.io/badge/Status-Open%20to%20DevOps%20Roles-success?style=flat-square" alt="Status" />
+</p></div><br /><br />🎯 Production Engineering Scorecard<br />🚀 Release Automation⚡ Infrastructure as Code🛡️ Shift-Left DevSecOps⏱️ Reliability & SRE-70% Manual OverheadAutomated ArgoCD & Jenkins GitOps-60% Environment SetupModular Terraform (2h → <45m)15+ Critical CVEs BlockedMandatory SonarQube & Trivy Gates40% Lower MTTDPrometheus & Grafana (99.9% Uptime)<br /><br />🧠 Core Engineering Principles (The DevOps Mindset)<br />"Most engineers focus only on tools. I focus on reliability, self-healing systems, and zero-touch automation."<br />🚫 Zero-ClickOps Policy: 100% of multi-cloud infrastructure (AWS & GCP) is declared, versioned, and provisioned using modular Terraform with remote S3 backend state and DynamoDB distributed locking.🛡️ Shift-Left Security First: Security is never an afterthought. SonarQube SAST analysis and Trivy container image scanning run as mandatory blocking quality gates on every Pull Request before artifacts reach production.🔄 Single Source of Truth (GitOps): Every cluster state change is stored in Git. ArgoCD continuously monitors repository states, automatically detecting configuration drifts and executing zero-downtime rolling releases with instant rollback.📈 SLO-Driven Observability: Proactive telemetry using Prometheus, Alertmanager, and Grafana dashboards to detect latency spikes and node pressure before they breach 99.9% customer SLAs.<br /><br />🔁 Live Continuous Delivery Pipeline<br /><p align="center">
+<img src="devops_pipeline_animated.svg" alt="Animated GitOps Pipeline" width="100%" />
+</p><br /><br />🛠️ Technical Competencies & Ecosystem<br />┌─────────────────────────┬────────────────────────────────────────────────────────────────────────┐
+│ DOMAIN                  │ TECHNOLOGIES & TOOLS                                                   │
+├─────────────────────────┼────────────────────────────────────────────────────────────────────────┤
+│ ☁️ Cloud Platforms      │ AWS (EC2, S3, IAM, VPC, RDS, Lambda, ECR, CloudWatch), GCP             │
+│ 📦 Containers & K8s     │ Docker, Multi-Stage Builds, Kubernetes, Helm Charts, ArgoCD (GitOps)   │
+│ 🔄 CI/CD & DevSecOps    │ GitHub Actions, Jenkins, GitLab CI, SonarQube SAST, Trivy Scanner     │
+│ 🏗️ IaC & Automation     │ Terraform (Modular IaC), Ansible, Bash Scripting, Python, YAML         │
+│ 📊 Observability & SRE  │ Prometheus, Grafana, Alertmanager, ELK Stack (Logstash/Kibana)         │
+│ 🌐 Systems & Web Servers│ Linux Administration (Ubuntu, CentOS), Nginx, Reverse Proxy, SSL/TLS   │
+└─────────────────────────┴────────────────────────────────────────────────────────────────────────┘
+<br /><br />🚀 Featured Production Architectures<br />1. 🏗️ Three-Tier High-Availability Cloud Architecture on AWSStack: AWS EC2 · Terraform · Docker · Nginx Reverse Proxy · PostgreSQL · SSL/TLSIsolated Network Architecture: Architected custom AWS VPC with public and private subnets, NAT gateways, and least-privilege Security Groups separating the presentation, business logic, and database tiers.Reusable Terraform Modules: Built declarative IaC templates supporting multi-environment deployments (Dev/Staging/Prod), cutting infrastructure provisioning time by 60% (from 2 hours to under 45 minutes).Production Reliability: Dockerized each tier with automated health-check endpoints and container restart policies, serving 500+ requests/minute at a 99% success rate with Nginx SSL/TLS termination.<details>
+<summary><b>🔍 View Architecture Blueprint & Key Highlights</b></summary>
+<br />[ Internet Traffic (HTTPS:443) ]
+               │
+               ▼
+   [ Nginx Reverse Proxy / SSL Termination ]
+               │
+      ┌────────┴────────┐
+      ▼                 ▼
+[ React Frontend ]  [ Node.js/Java API ]
+      │                 │
+      └────────┬────────┘
+               ▼
+     [ PostgreSQL Database (Private Subnet) ]
+Automated infrastructure state locking using AWS DynamoDB + S3 versioned bucket.Zero exposure of database endpoints to public subnets.
+</details><br />2. 🔄 Enterprise GitOps & DevSecOps Automated Delivery PipelineStack: Jenkins · GitHub Actions · SonarQube · Trivy · ArgoCD · Kubernetes7-Stage Continuous Delivery: Engineered a hands-off pipeline: Git Push $\rightarrow$ Maven Unit Test $\rightarrow$ SonarQube SAST Gate $\rightarrow$ Multi-Stage Docker Build $\rightarrow$ Trivy Image Scan $\rightarrow$ ECR Push $\rightarrow$ ArgoCD Sync.Shift-Left Vulnerability Prevention: Configured zero-tolerance quality gates that blocked 15+ critical CVEs from ever reaching production environments.40% Docker Optimization: Refactored Dockerfiles using multi-stage builds and Alpine slim base images, shrinking container image footprint by 40% and accelerating pipeline deployment speeds.<details>
+<summary><b>🔍 View End-to-End Pipeline Flow</b></summary>
+<br />Developer Push ──► GitHub Actions CI ──► SonarQube Scan ──► Multi-Stage Docker
+                                                                   │
+Kubernetes (Zero-Downtime) ◄── ArgoCD GitOps ◄── ECR Registry ◄── Trivy Scan
+Automated rollback mechanisms trigger in < 5 minutes upon container health-check failure.
+</details><br />3. ☸️ Auto-Scaling Kubernetes Microservices with Full-Stack ObservabilityStack: Kubernetes · Helm · Prometheus · Grafana · Alertmanager · Horizontal Pod Autoscaler (HPA)Cloud-Native Deployment: Packaged 5 microservices into parameterized Helm charts with dynamic environment configs, Ingress path routing, and secret management.Elastic Load Handling: Configured Horizontal Pod Autoscaler (HPA) targeting 70% CPU and 80% memory thresholds, successfully scaling pods during stress tests of 1,000+ concurrent requests.Observability & MTTD Reduction: Deployed Prometheus and Grafana with 6 real-time monitoring dashboards, cutting Mean Time to Detect (MTTD) by 40% and ensuring 99.9% uptime compliance.<br /><br />📈 Engineering Consistency & Activity<br /><div align="center">
+<img src="https://streak-stats.demolab.com?user=Ganesh4365&theme=tokyonight&hide_border=true" alt="Ganesh's GitHub Streak" width="95%" />
+</div><br /><br />🎖️ Certifications, Honors & Achievements<br />📜 AWS Certified Cloud Practitioner (CLF-C02) – Amazon Web Services (2025)🎯 AWS Certified Solutions Architect – Associate (SAA-C03) – Target: 2026🌟 Top 10% Performer – DevOps Internship Cohort out of 200+ Engineers (QSpiders)🏆 Smart India Hackathon – State-Level Finalist (2023)<br /><br />📬 Let's Connect & Build Resilient Cloud Systems<br />I am actively open to Junior DevOps and Cloud Engineering roles, production automation projects, and networking with fellow platform engineers.<p align="center">
+<a href="https://linkedin.com/in/ganesh-suryawanshi"><b>LinkedIn Profile</b></a> &nbsp;·&nbsp;
+<a href="https://ganesh4365.github.io/Professional-Portfolio"><b>Live Portfolio</b></a> &nbsp;·&nbsp;
+<a href="mailto:shriganeshsuryawanshi44@gmail.com"><b>Direct Email</b></a>
+</p>
